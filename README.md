@@ -15,3 +15,6 @@ Undergrad MechE trying to do as much as possible before the next semester begins
 # CubeSat:
 - I'm using github as documentation
 - **Learning KiCad and circuit design! Yipeee!!!!!!**
+
+  
+-Jaine Ratush
