@@ -17,4 +17,4 @@ Undergrad MechE trying to do as much as possible before the next semester begins
 - **Learning KiCad and circuit design! Yipeee!!!!!!**
 
   
--Jaine Ratush
+-Jaine R.
