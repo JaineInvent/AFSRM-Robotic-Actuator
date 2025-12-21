@@ -25,4 +25,4 @@
 - Even though power pins are modified by LDO, signals aren't
 - IMU produces 1.9V signal output but the MCU requires 3.3V
 - BLS shifts input/output signals between 1.9V-3.3V
-VDDIO: Supply Voltage for digital input/output pins. 
+## VDDIO: Supply Voltage for digital input/output pins. 
