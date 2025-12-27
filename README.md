@@ -5,7 +5,7 @@
   2. I want to apply E&M and dynamics to reality, dive into electronics, controls, and make something tangible(3d printing & building is happening during the semester) 
   3. Fun!!!!!
 - How: 
- ## Project Outline: 
+# Project Outline: 
 # Mechanical 
 1. Identify dimensions: 
 Due to the 3D printers have a max bed size of 150mm x 150mm, I chose a radius of 65mm. 
