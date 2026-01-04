@@ -15,3 +15,25 @@ Author: Jaine R.
 - Hopefully once I configure all the electrical paths, a proper PCB stator will be produced --2:51pm  
 
 Author: Jaine R.
+
+## 1/3/25
+- Added and understood all the net_names and their physical connection on the PCB
+
+Originally I wanted to modify the coil automation notebook to maximize coil fill on the PCB, however, I found that it is geometrically complex and that the original author's variable names did not align with mine. 
+
+I realized that building an optimization code for N, vias_radius, etc would take longer than iterating constraints.
+
+To iterate constraints I have/had to: 
+- Add proper net_names
+- Debug discrepancies between pcb_json.py and the notebook: 
+    - components= was missing
+    - "tracks_in1" was corrected to "tracks_in"
+    - Stuck on json file expecting referncing by names instead of the discrete points produced by the notebook 
+    
+This seems like more work than manually drawing out the coils, however, the CSV is crucial to the simulations and this may reduce error later in the build-phase of the prototype. 
+
+Next steps:
+- Finish Debugging
+- Start iterating and finding parameters that may produce highest torque(based on B-feild)
+
+Author: Jaine R. 
