@@ -1,7 +1,6 @@
 ## Overview
 Explore the use of Axial Flux Switch Reluctance Motors(AFSRM) for regenerative E-bike applications, by designing a scaled down AFSRM. 
-Although PCB windings limit torque density compared to conventional coils, they were intentionally chosen to prioritize repeatability, geometric control, and fast design iteration for exploratory modeling and prototyping.
-If torque does not meeting scaled objectives, other uses will be explored. 
+A PCB stator was selected for its sustainability, uniform coefficient of thermal expansion relative to traditional laminated coils, and rapid prototyping capability.
 ## Objectives
 - Utilize a PCB stator for prototyping feasibiliy, and create solutions to PCB coil limitations 
 - Apply undergraduate Mechanics and Electricity & Magnetism to an electromechanical system
