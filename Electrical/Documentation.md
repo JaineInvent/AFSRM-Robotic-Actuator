@@ -12,13 +12,16 @@ Author: Jaine R.
 - net_name= Coil [A,B,C ] ensures that coils on multiple layers are treated as one, that way both are energized to create a B-feild
 - The notebook successfully produced a 2-layer and 4-layer CSV
 - Using this CSV I will rewrite my max torque code(which wasnt pushed earlier due to branching issues) to take the CSV geometrical vaues and apply them to the max torque inductrance approximation
-- Hopefully once I configure all the electrical paths, a proper PCB stator will be produced --2:51pm  
+- Hopefully once I configure all the electrical paths, a proper PCB stator will be produced
+
+Things learnt:
+net_names- a name or class that defines an electrical connection. If two coils are connected to the same netname, they share the same electrical connection. 
+vias- pcb tunnels that allow for electrons to pass through multiple layers of the PCB. 
+
 
 Author: Jaine R.
 
 ## 1/3/25
-- Added and understood all the net_names and their physical connection on the PCB
-
 Originally I wanted to modify the coil automation notebook to maximize coil fill on the PCB, however, I found that it is geometrically complex and that the original author's variable names did not align with mine. 
 
 I realized that building an optimization code for N, vias_radius, etc would take longer than iterating constraints.
@@ -41,6 +44,10 @@ Author: Jaine R.
 ## 1/9/25 
 -Finished dubugging the coil generator, which produced this PCB Stator: 
 <img width="900" height="900" alt="coil1" src="https://github.com/user-attachments/assets/7511d6f1-92c1-4b4b-8364-f6b5b6d0a599" />
+
+Things learnt:
+net_names- a name or class that defines an electrical connection. If two coils are connected to the same netname, they share the same electrical connection. 
+vias- pcb tunnels that allow for electrons to pass through multiple layers of the PCB. 
 
 Issues with this PCB and the code:
 - Input vias too close to shaft hole
