@@ -56,7 +56,7 @@ Issues with this PCB and the code:
 - hole radius <8 mm
 - Code doesn't handle scaling, rather, the author uses an unshared formula to change the geometry for larger PCB radii
 
-Update: Upon closer inspection of the code, the template can be used in the geometric formulas for winding the pcb traces, however, templates are just an option specific to the user. Commenting out the template revealed that, due to geometric offsets, normalizations, and reference vectors; radius is taken into account. 
+Update: Upon closer inspection of the code, while the template was utilized in coil segment optimization templates are just an option specific to the user. Commenting out the template revealed that, due to geometric offsets, normalizations, and reference vectors; radius was still being taken into account. 
 
 <img width="917" height="959" alt="b92572ce-021f-4720-8c92-ca1273e57e0a" src="https://github.com/user-attachments/assets/e4bf01c9-8ffc-41a6-ad8c-4b771e78e276" />
 
