@@ -37,3 +37,6 @@ Next steps:
 - Start iterating and finding parameters that may produce highest torque(based on B-feild)
 
 Author: Jaine R. 
+
+## 1/9/25 
+-Finished dubugging the coil generator, which produced this PCB Stator: 
