@@ -18,6 +18,7 @@ This project is being developed incrementally as a long-term exploratory effort,
 - [Documentation](./Mechanical/Documentation.md)
 
 [Electrical](./Electrical/):
+- [Results and Notes](Results.md)
 - PCB creation and [coilAutomation](./Electrical/CoilAutomation/kicad-coil-plugins/)
 - Biot-Savart [simulation](./Electrical/CoilAutomation/kicad-coil-plugins/simulations/)
 - [Documentation](./Electrical/Documentation.md)
